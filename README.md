@@ -9,10 +9,14 @@ cmake -S . -B build
 cmake --build build
 `
 
-## Run
+## Run Tests
 `
-./build/Debug/TDD.exe 
+(cd build && ctest) 
 `
+
+
 ### Useful links
 https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html
 https://cmake.org/cmake/help/latest/guide/tutorial/Adding%20a%20Library.html#exercise-1-creating-a-library
+
+https://google.github.io/googletest/quickstart-cmake.html
